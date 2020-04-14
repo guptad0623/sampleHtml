@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="fa/css/all.min.css"/>
+		<link rel="stylesheet" href="Gallery.css"/>
+		<script src="jquery/jquery-3.5.0.min.js"/></script>
+		<script src="bootstrap/js/bootstrap.min.js"/></script>
+		<script>
+		$(document).ready(function(){
+			$('.carousel').carousel()
+		})
+		</script>
+	</head>
+	<body>
+		<div class="container-fluid1">
+			<nav>
+				<div class="nav-wrapper">
+					<div class="row">
+						<div class="col-sm-3">
+							<ul>
+								<li><a href="#">LOGO</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-9">
+							<ul>
+								<li><a href="#">HOME</a></li>
+								<li><a href="#">GALLERY</a></li>
+								<li><a href="#">EXHIBITIONS</a></li>
+								<li><a href="#">ARTIST</a></li>
+								<li><a href="#">NEWS</a></li>
+								<li><a href="#">BLOG</a></li>
+								<li><a href="#">CONTACT US</a></li>
+								<li><a href="#">ABOUT US</a></li>
+								<li><a href="#">SIGN UP</a></li>
+								<li><a href="#">SIGN IN</a></li>							
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="container-fluid2">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!--indicators-->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active text">
+					</div>
+					<div class="item">
+					</div>
+					<div class="item">
+					</div>
+					<div class="item">
+					</div>
+				</div>
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

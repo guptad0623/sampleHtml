@@ -1,0 +1,38 @@
+.topbg{
+	background-color:black;
+}
+.padding{
+	padding:10px;
+}
+.topicon a{
+	color:white;
+	margin-right:20px;
+}
+.topicon a:hover{
+	text-decoration:none;
+}
+.topicon a span{
+	color:green;
+}
+.menubg, .dropdown-menu{
+	background-color:#6baf0b;
+}
+.mymenu li a{
+	color:white;
+}
+.mymenu li a:hover,.mymenu li a:focus{
+	color:white;
+	background-color:black;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+	background-color:black;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    width: 100%;
+    height:400px;
+}
+.container-fluid{
+	padding-left:0px;
+	padding-right:0px;
+}
